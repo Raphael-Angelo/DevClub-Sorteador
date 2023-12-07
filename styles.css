@@ -25,7 +25,7 @@ h2 {
     line-height: 37.5px;
     color: #FFFFFF;
     text-align: center;
-    margin: 126px 0 26px;
+    margin: 55px 0 40px;
 }
 
 input {
@@ -66,4 +66,39 @@ input {
 }
 .button-draw:active {
     opacity: 0.9;
+}
+
+@media screen and (max-width: 769px) {
+    
+    .logo-img {
+        width: 75%;
+        margin: 10% auto 0;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 75%;
+        font-size: 30px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .input-min {
+        margin: 3%;
+    }
+
+    .button-draw {
+        margin-top: 10%;
+        width: 75%;
+        height: 60px;
+    }
+
 }
